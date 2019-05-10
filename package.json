@@ -1,0 +1,22 @@
+{
+  "name": "travis01",
+  "version": "1.0.0",
+  "description": "heroku and travis",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run lint server.js $$ mocha ./tests/index-spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-fetchopia/sample-travis-heroku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david-fetchopia/sample-travis-heroku/issues"
+  },
+  "homepage": "https://github.com/david-fetchopia/sample-travis-heroku#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
