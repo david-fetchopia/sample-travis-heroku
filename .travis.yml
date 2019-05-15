@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- stable
+npm: true
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: N/iIWJdScb8F9B1z11prRGkVTCswzdoyFiLs+uv6AsdYC9VmUSn9/zu69COKZd2xdt1y/AoAvpMy2ppxzWY4EYuEcdSs6fIS/1/ZemNfQjkFNvAzJUD8x5vkjMu5VqYE4LNMEZ5cKm1xFK9z2TnvXAVTvuBQaVRma7P9MUUgjxXS7j77FvvDXgoHy9pSoFzaejLbB+g6dG/ZO99WGa4dznN62OvXzJdV+aymqWCsEIvhqI2GmPdWXzBmbJFN77zqwFJK8RnL+9jEkx5DTpA53Nz/6h6gs8llZsrOvRmaiIqCpMPtXS+Q8v9KK95Bob8hv+GagVPC6khCQ3aEzXxhpK8/LrCp8SSN3/pSkq/MAbGloyN278Tpb5j4HMBZ8qi9Q/2UCGRHTHcPO8EMqIjR2feIzALUDthdnPfkNQN9VUT6IhyNKHQUb5wylPEaxCm/2paVi7yj1WoiZEPV6Wlke61pN5dXIbXwvfpwmDyoJYJIOzMkZplO5Tz0ijR2tQRT8j6rvrV6qSE+VVAli8xjgZC4SY6HnVU99GymKpZu2Bwt8BqBiK7Y6t11SvSoWJoXjiy4zN1r+lcTqKV6t8mgWThx6E8w0GrDFqW+m7bMec6czJvgzyuNe3rzBoFmmg8PaP9P5UrUTxViop1QZyb9gi8x/iNVolTgZrIBlFzDeCs=
+  app: quiet-meadow-59685
+  on:
+    repo: david-fetchopia/sample-travis-heroku
